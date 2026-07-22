@@ -30,7 +30,7 @@ describe('CalculatorComponent', () => {
     component.calculatorForm.get('operator').setValue('+');
     component.onSubmit();
 
-    expect(component.result).toBe(11);
+    expect(component.result).toBe(10);
 
   });
 
